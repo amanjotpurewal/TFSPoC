@@ -100,7 +100,7 @@
         <type>Picklist</type>
     </fields>
     <fields>
-        <fullName>Active__c</fullName>
+        <fullName>ActiveAman__c</fullName>
         <externalId>false</externalId>
         <label>Active</label>
         <picklist>
@@ -160,7 +160,29 @@
         <fullName>Description</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
-    <fields>
+   <fields>
+        <fullName>UpsellOpportunityNew__c</fullName>
+        <externalId>false</externalId>
+        <label>Upsell Opportunity New</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Maybe</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>No</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+    </fields>
+   <fields>
         <fullName>DunsNumber</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -325,7 +347,7 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
-        <fullName>NumberofLocations__c</fullName>
+        <fullName>NumberofLocationsNew1__c</fullName>
         <externalId>false</externalId>
         <label>Number of Locations</label>
         <precision>3</precision>
@@ -606,3 +628,5 @@
         <url>http://www.genwatt.com/genwatt/billing.htm?actname={!Account_Name}</url>
     </webLinks>
 </CustomObject>
+
+
